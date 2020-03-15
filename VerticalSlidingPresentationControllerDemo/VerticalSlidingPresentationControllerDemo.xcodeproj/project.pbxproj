@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		728C6199241DF1BC00796C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728C6197241DF1BC00796C7D /* Main.storyboard */; };
 		728C619B241DF1BE00796C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728C619A241DF1BE00796C7D /* Assets.xcassets */; };
 		728C619E241DF1BE00796C7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728C619C241DF1BE00796C7D /* LaunchScreen.storyboard */; };
+		728C61A7241DF24400796C7D /* VerticalSlidingPresentationController in Frameworks */ = {isa = PBXBuildFile; productRef = 728C61A6241DF24400796C7D /* VerticalSlidingPresentationController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728C61A7241DF24400796C7D /* VerticalSlidingPresentationController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 			children = (
 				728C6190241DF1BC00796C7D /* VerticalSlidingPresentationControllerDemo */,
 				728C618F241DF1BC00796C7D /* Products */,
+				728C61A5241DF24400796C7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,13 @@
 			path = VerticalSlidingPresentationControllerDemo;
 			sourceTree = "<group>";
 		};
+		728C61A5241DF24400796C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = VerticalSlidingPresentationControllerDemo;
+			packageProductDependencies = (
+				728C61A6241DF24400796C7D /* VerticalSlidingPresentationController */,
+			);
 			productName = VerticalSlidingPresentationControllerDemo;
 			productReference = 728C618E241DF1BC00796C7D /* VerticalSlidingPresentationControllerDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -338,6 +351,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		728C61A6241DF24400796C7D /* VerticalSlidingPresentationController */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VerticalSlidingPresentationController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 728C6186241DF1BC00796C7D /* Project object */;
 }
